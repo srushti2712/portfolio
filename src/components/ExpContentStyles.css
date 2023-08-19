@@ -1,0 +1,51 @@
+.por{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.por .left{
+    text-align: center;
+    margin: auto;
+    padding:1rem;
+    max-width: 350px;
+
+
+}
+.por .left p{
+    margin: 1.2rem 0;
+}
+.por.right{
+    max-width: 700px;
+
+}
+.por .img-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.por .img{
+    max-width: 90%;
+    border: 1px solid #333;
+
+}
+.por .top{
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top:20%;
+    z-index:6;
+
+}
+.por .bottom{
+    grid-column: 4 / -1;
+    grid-row: 1;
+   
+    z-index:5;
+    
+}
+

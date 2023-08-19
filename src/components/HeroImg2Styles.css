@@ -1,0 +1,43 @@
+.hero-img{
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    height: 60vh;
+    position:relative;
+
+}
+.hero-img::before{
+    content: "";
+    background:  url(https://media.istockphoto.com/id/1387945043/photo/computer-technology-background-digital-data-flow-network-connection-structure-big-data.jpg?b=1&s=170667a&w=0&k=20&c=Sd255zPE6kBUU_EE3omdvL5GNWQdfSeOBmHBdEObCJc=);
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width:100%;
+    position:absolute;
+    top: 0;
+    left:0;
+    z-index:-1;
+    opacity: 0.7;
+}
+
+.heading{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.hero-img h1{
+    font-size: 2.4rem;
+}
+.hero-img p{
+    font-size:1.4 rem;
+    text-align: center;
+}
+@media screen and (max-width:640px) {
+    .hero-img h1 {
+        font-size: 2.4rem;
+    }
+    
+}
